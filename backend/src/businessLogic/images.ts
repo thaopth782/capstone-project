@@ -1,5 +1,5 @@
-import { ImagesAccess } from './imagesAccess'
-import { getUploadUrl } from './attachmentUtils';
+import { ImagesAccess } from '../dataLayer/imagesAccess'
+import { getUploadUrl } from '../helpers/attachmentUtils';
 import { ImageItem } from '../models/ImageItem'
 import { CreateImageRequest } from '../requests/CreateImageRequest'
 import { UpdateImageRequest } from '../requests/UpdateImageRequest'

@@ -4,7 +4,7 @@ import { APIGatewayProxyEvent, APIGatewayProxyResult } from 'aws-lambda'
 import * as middy from 'middy'
 import { cors } from 'middy/middlewares'
 
-import { getImagesForUser } from '../../helpers/images';
+import { getImagesForUser } from '../../businessLogic/images';
 import { getUserId } from '../utils';
 import { ImageItem } from '../../models/ImageItem';
 

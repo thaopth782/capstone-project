@@ -4,7 +4,7 @@ import * as middy from 'middy'
 import { cors } from 'middy/middlewares'
 import { CreateImageRequest } from '../../requests/CreateImageRequest'
 import { getUserId } from '../utils';
-import { createImage } from '../../helpers/images'
+import { createImage } from '../../businessLogic/images'
 import { ImageItem } from '../../models/ImageItem'
 
 export const handler = middy(

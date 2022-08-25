@@ -6,7 +6,7 @@ import { cors, httpErrorHandler } from 'middy/middlewares'
 
 import { UpdateImageRequest } from '../../requests/UpdateImageRequest'
 import { getUserId } from '../utils'
-import { updateImage } from '../../helpers/images'
+import { updateImage } from '../../businessLogic/images'
 
 export const handler = middy(
   async (event: APIGatewayProxyEvent): Promise<APIGatewayProxyResult> => {
